@@ -3,7 +3,7 @@ import Swal from 'sweetalert2';
 
 const awal = () => {
   Swal.fire({
-    title: 'Haii',
+    title: 'Haii Amalia..',
     text: 'Sebelum mulai, gimana kabarnya hari ini? semoga sehat selalu yaa..',
     icon: 'info',
     confirmButtonText: 'Lanjut',
