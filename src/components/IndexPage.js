@@ -30,7 +30,7 @@ const awal = () => {
           }).then(function () {
             Swal.fire({
               title: 'Dan yang terakhir',
-              text: 'Jangan lupa jaga kesehatan ya, jangan sering begadang, jangan sering makan makanan yang pedes, pola makan nya di jaga jangan sampai telat makan, jangan terlalu kecapekan dan juga jangan terlalu memikirkan sesuatu yang bisa bikin kamu pusing secara berlebihan dan jangan lupa untuk selalu bahagia. I will always love u..',
+              html: 'Jangan lupa jaga kesehatan ya, jangan sering begadang, jangan sering makan makanan yang pedes, pola makan nya di jaga jangan sampai telat makan, jangan terlalu kecapekan dan juga jangan terlalu memikirkan sesuatu yang bisa bikin kamu pusing secara berlebihan dan jangan lupa untuk selalu bahagia. I will always love u.. <br /> -Iqbal',
               confirmButtonText: 'Terimakasih..',
             });
           });
