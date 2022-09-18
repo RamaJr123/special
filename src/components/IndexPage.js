@@ -40,18 +40,6 @@ const awal = () => {
   });
 };
 
-const dua = () => {
-  Swal.fire({
-    title: 'Haii',
-    text: 'Sebelum mulai, gimana kabarnya hari ini? semoga sehat selalu yaa..',
-    confirmButtonText: 'Lanjut',
-  });
-};
-
-const perkumpulan = () => {
-  awal.then(dua());
-};
-
 function IndexPage() {
   return awal();
 }
